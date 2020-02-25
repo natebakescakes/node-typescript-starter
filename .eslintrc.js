@@ -35,4 +35,13 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: ['**/*.ts'],
+      parser: '@typescript-eslint/parser',
+      rules: {
+        'no-undef': 'off',
+      },
+    },
+  ],
 };
